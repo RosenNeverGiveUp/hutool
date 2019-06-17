@@ -77,4 +77,6 @@ public class StudentInfo {
 	public void setAccountId(String accountId) {
 		this.accountId = accountId;
 	}
+		this.username = username;
+	}
 }
