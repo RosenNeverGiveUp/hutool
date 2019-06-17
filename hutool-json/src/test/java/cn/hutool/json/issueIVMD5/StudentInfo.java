@@ -25,6 +25,8 @@ public class StudentInfo {
 	private String nativePlace;
 	private String id;
 	private String username;
+	public String getBirthday() {
+		return birthday;
 	}
 	public void setBirthday(String birthday) {
 		this.birthday = birthday;
@@ -77,6 +79,76 @@ public class StudentInfo {
 	public void setAccountId(String accountId) {
 		this.accountId = accountId;
 	}
+	public String getClassId() {
+		return classId;
+	}
+	public void setClassId(String classId) {
+		this.classId = classId;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getModifyTime() {
+		return modifyTime;
+	}
+	public void setModifyTime(String modifyTime) {
+		this.modifyTime = modifyTime;
+	}
+	public String getIsDeleted() {
+		return isDeleted;
+	}
+	public void setIsDeleted(String isDeleted) {
+		this.isDeleted = isDeleted;
+	}
+	public String getPostalcode() {
+		return postalcode;
+	}
+	public void setPostalcode(String postalcode) {
+		this.postalcode = postalcode;
+	}
+	public String getBackground() {
+		return background;
+	}
+	public void setBackground(String background) {
+		this.background = background;
+	}
+	public String getSchoolId() {
+		return schoolId;
+	}
+	public void setSchoolId(String schoolId) {
+		this.schoolId = schoolId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public String getSequenceIntId() {
+		return sequenceIntId;
+	}
+	public void setSequenceIntId(String sequenceIntId) {
+		this.sequenceIntId = sequenceIntId;
+	}
+	public String getNativePlace() {
+		return nativePlace;
+	}
+	public void setNativePlace(String nativePlace) {
+		this.nativePlace = nativePlace;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
 		this.username = username;
 	}
 }
